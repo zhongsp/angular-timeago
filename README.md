@@ -5,7 +5,7 @@ Edited based on this jQuery plugin [https://github.com/rmm5t/jquery-timeago](htt
 
 Provided a directive `angularTimeago` from module `angularTimeago`.
 
-# How to use
+## How to use
 
 * Include `angular-timeago.js`
 * Inject `angularTimeago` module in your app's main module, like `demoApp` in the example
@@ -23,3 +23,9 @@ To
   <span class="ng-binding">about an hour ago</span>
 </div>
 ```
+
+## Author
+Patrick Zhong ([@zhongsp](https://twitter.com/zhongsp))
+
+## License
+[MIT License](http://www.opensource.org/licenses/mit-license.php)

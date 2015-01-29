@@ -12,8 +12,12 @@ Provided a directive `angularTimeago` from module `angularTimeago`.
 * Use the markup on page `<div angular-timeago="2015-01-29T09:35:56Z"></div>`
 * Date format is in ISO8601
 
-It'll be translated into:
 
+From
+```html
+<div angular-timeago="2015-01-29T09:35:56Z"></div>
+```
+To
 ```html
 <div angular-timeago="2015-01-29T09:35:56Z" class="ng-isolate-scope">
   <span class="ng-binding">about an hour ago</span>

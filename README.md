@@ -1,7 +1,7 @@
 Angular timeago directive
 =========================
 
-Edited based on this jQuery plugin [https://github.com/rmm5t/jquery-timeago] by @rmm5t.
+Edited based on this jQuery plugin [https://github.com/rmm5t/jquery-timeago](https://github.com/rmm5t/jquery-timeago) by @rmm5t.
 
 Provided a directive `angularTimeago` from module `angularTimeago`.
 

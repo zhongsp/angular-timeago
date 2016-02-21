@@ -2,13 +2,10 @@ angular.module('angularTimeago', [])
   .directive('angularTimeago', function() {
     return {
       template: '<span>{{timeagoWords}}</span>',
-      scope: {
-        angularTimeago: '@'
-      },
-      link: function($scope) {
-        $scope.$watch('timeago', function() {
-          $scope.timeagoWords = transformIntoWords($scope.angularTimeago);
-        });
+      link: function($scope, $element, $attrs) {
+        $attrs.$observe('angularTimeago', function() {
+          $scope.timeagoWords = transformIntoWords($attrs.angularTimeago);
+        })
       }
     };
 
